@@ -1,10 +1,11 @@
-alert("Aula de JavaScrippt");
-//comentario 1 linha
-/*linha1
-linha2
-linha3*/
+var x = 0;
+var y = 0;
 
-var numero = 2020;
-var nome = "Victória";
-var carac = '';
-alert (nome + numero);
+while(x <= 10){
+    alert(x);
+    x+=2;
+}
+
+do{
+    alert(x);
+}while(x <= 10)
